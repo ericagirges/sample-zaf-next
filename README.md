@@ -3,7 +3,7 @@ This is an app scaffold integrating Next.js with the Zendesk App Framework.
 ## Getting Started 
 
 1. Clone or fork this repo
-2. Change (`cd`) into the `app_local` directory
+2. `cd` into the `app_local` directory
 3. Run `yarn install` or `npm install`
 
 ### Running Zendesk App Tools locally
