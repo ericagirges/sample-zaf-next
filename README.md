@@ -31,4 +31,10 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. You will need to import useZAFClient into any pages where requests to the client will be made. The page auto-updates as you edit the file. 
+Current location of this app is in the *Top Bar*. This can be changed in the manifest file.
+
+You can start editing the page by modifying `pages/index.js`. You will need to import useZAFClient into any pages/components where requests/actions to the client will be made. The page auto-updates as you edit the file. 
+
+After deployment be sure to update the location url to where your app is hosted.
+
+Happy Coding! 🥳

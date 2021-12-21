@@ -9,7 +9,7 @@
   "private": true,
   "location": {
     "support": {
-      "ticket_sidebar": "http://localhost:3000/ticket_sidebar"
+      "top_bar": "http://localhost:3000"
     }
   },
   "version": "1.0",
