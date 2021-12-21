@@ -13,7 +13,7 @@ export function useZafClient() {
 
       // set it to state
       setClient(zafClient)
-      zafClient.invoke()
+      zafClient.invoke('resize', { height: '400px' })
     }
   }, [client])
 
