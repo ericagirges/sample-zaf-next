@@ -14,8 +14,7 @@ Must have Zendesk App Tools installed. If needed, see these [docs](https://devel
 To serve the app to your Zendesk instance with `?zat=true`, run
 
 ```
-yarn run watch
-zat server -p dist
+zat server
 ```
 
 ### Running Next.js app locally
