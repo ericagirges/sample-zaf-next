@@ -9,26 +9,20 @@ Must have Zendesk App Tools installed. If needed, see these [docs](https://devel
 2. `cd` into the `app_local` directory
 3. Run `yarn install` or `npm install`
 
-### Running Zendesk App Tools locally
-
-To serve the app to your Zendesk instance with `?zat=true`, run
-
-```
-zat server
-```
-
-### Running Next.js app locally
-
-Run the development server for Next.js:
+In order to run the app locally on your Zendesk instance, first run the development server for Next.js. You need to run the following command on the parent directory _sample-zaf-next_
 
 ```bash
-cd.. sample-zaf-next
+cd..
 npm run dev
 # or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+While you Next.js development server is running, run the following command to serve your app to your Zendesk instance.
+
+```
+zat server
+```
 
 Current location of this app is in the *Top Bar*. This can be changed in the manifest file.
 
